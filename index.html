@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Simple Quiz</h1>
+
+       
+        <div id="settings">
+            <h2>Quiz Settings</h2>
+            <span>Number of Questions : </span>
+            <input type="number" id="number" placeholder="Enter">
+        
+            <div class="language">
+                <span>Select Category : </span>
+                <select id="category">
+                    <option value="18">Computers</option>
+                    <option value="21">Sports</option>
+                    <option value="9">General Knowledge</option>
+                    <option value="4">Python</option>
+                    <option value="5">Sql</option>
+                </select>
+            </div>
+        
+            <div id="difficulty">
+                <span>Choose difficulty : </span>
+                <input type="radio" name="difficulty" value="easy">Easy
+                <input type="radio" name="difficulty" value="medium">Medium
+                <input type="radio" name="difficulty" value="hard">Hard
+
+            </div>
+        </div>
+
+        <button id="startBtn" >Start</button>
+
+
+        <div id="quiz" style="display: none;">
+            <h2 id="question">Question goes here</h2>
+            <div class="answer-buttons">
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn">Answer3</button>
+                <button class="btn">Answer4</button>
+
+            </div>
+            <div class="buttons">
+                <button id="prevBtn">Previous</button>
+                <button id="submitBtn">Submit</button>
+                <button id="nextBtn">Next</button>
+            </div>
+        </div>
+        
+    </div>
+
+    
+
+    
+</body>
+<script src="script.js"></script>
+</html>
