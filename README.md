@@ -1,3 +1,5 @@
+QUIZ APP
+
 This is a simple quiz application made using **HTML, CSS, and JavaScript**.
 
 The quiz questions come from an online API called **Open Trivia Database**.
